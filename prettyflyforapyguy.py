@@ -104,7 +104,7 @@ right2= [
     [r, r, r, r, r, r, r, r],
     [r, r, r, r, r, r, w, r]
     ]
-rightmost= [
+rtmost= [
     [r, r, r, r, r, r, r, r],
     [r, r, r, r, r, r, r, r],
     [r, r, r, r, r, r, r, r],
@@ -278,19 +278,434 @@ rt2fr7= [
     [r, r, r, r, r, r, r, r],
     [r, r, r, r, r, r, w, r]
     ]
-
-
-
-
-
-most_recent = bg
+rt3fr1= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, g, r, r],
+    [r, r, r, r, r, w, r, r]
+    ]
+rt3fr2= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, g, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, w, r, r]
+    ]
+rt3fr3= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, g, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, w, r, r]
+    ]
+rt3fr4= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, g, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, w, r, r]
+    ]
+rt3fr6= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, g, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, w, r, r]
+    ]
+rt3fr6= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, g, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, g, r, r],
+    [r, r, r, r, r, w, r, r]
+    ]
+rt3fr7= [
+    [r, r, r, r, r, g, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, w, r, r]
+    ]
+rt4fr1= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, g, r, r, r],
+    [r, r, r, r, w, r, r, r]
+    ]
+rt4fr2= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, g, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, w, r, r, r]
+    ]
+rt4fr3= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, g, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, w, r, r, r]
+    ]
+rt4fr4= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, g, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, w, r, r, r]
+    ]
+rt4fr5= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, g, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, w, r, r, r]
+    ]
+rt4fr6= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, g, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, w, r, r, r]
+    ]
+rt4fr7= [
+    [r, r, r, r, g, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, w, r, r, r]
+    ]
+lft4fr1= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, g, r, r, r, r],
+    [r, r, r, w, r, r, r, r]
+    ]
+lft4fr2= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, g, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, w, r, r, r, r]
+    ]
+lft4fr3= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, g, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, w, r, r, r, r]
+    ]
+lft4fr4= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, g, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, w, r, r, r, r]
+    ]
+lft4fr5= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, g, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, w, r, r, r, r]
+    ]
+lft4fr6= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, g, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, w, r, r, r, r]
+    ]
+lft4fr7= [
+    [r, r, r, g, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, w, r, r, r, r]
+    ]
+lft3fr1= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, g, r, r, r, r, r],
+    [r, r, w, r, r, r, r, r]
+    ]
+lft3fr2= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, g, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, w, r, r, r, r, r]
+    ]
+lft3fr3= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, g, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, w, r, r, r, r, r]
+    ]
+lft3fr4= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, g, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, w, r, r, r, r, r]
+    ]
+lft3fr5= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, g, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, w, r, r, r, r, r]
+    ]
+lft3fr6= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, g, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, w, r, r, r, r, r]
+    ]
+lft3fr7= [
+    [r, r, g, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, w, r, r, r, r, r]
+    ]
+lft2fr1= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, g, r, r, r, r, r, r],
+    [r, w, r, r, r, r, r, r]
+    ]
+lft2fr2= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, g, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, w, r, r, r, r, r, r]
+    ]
+lft2fr3= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, g, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, w, r, r, r, r, r, r]
+    ]
+lft2fr4= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, g, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, w, r, r, r, r, r, r]
+    ]
+lft2fr5= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, g, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, w, r, r, r, r, r, r]
+    ]
+lft2fr6= [
+    [r, r, r, r, r, r, r, r],
+    [r, g, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, w, r, r, r, r, r, r]
+    ]
+lft2fr7= [
+    [r, g, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, w, r, r, r, r, r, r]
+    ]
+lftmstfr1= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [g, r, r, r, r, r, r, r],
+    [w, r, r, r, r, r, r, r]
+    ]
+lftmstfr2= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [g, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [w, r, r, r, r, r, r, r]
+    ]
+lftmstfr3= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [g, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [w, r, r, r, r, r, r, r]
+    ]
+lftmstfr4= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [g, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [w, r, r, r, r, r, r, r]
+    ]
+lftmstfr5= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [g, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [w, r, r, r, r, r, r, r]
+    ]
+lftmstfr6= [
+    [r, r, r, r, r, r, r, r],
+    [g, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [w, r, r, r, r, r, r, r]
+    ]
+lftmstfr7= [
+    [g, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [w, r, r, r, r, r, r, r]
+    ]
+most_recent = start
 while True:
     for event in sense.stick.get_events():
         if event.direction == "right":
-            if most_recent == rightmost:
+            if most_recent == rtmost:
                 pass
             elif most_recent == right2:
-                most_recent = rightmost
+                most_recent = rtmost
             elif most_recent == right3:
                 most_recent = right2
             elif most_recent == right4:
@@ -321,8 +736,14 @@ while True:
             elif most_recent == rightmost:
                 most_recent = right2
         if event.direction == "up":
-            if most_recent == rightmost:
-                pass
+            if most_recent == rtmost:
+                most_recent = rtmstfr1
+                most_recent = rtmstfr2
+                most_recent = rtmstfr3
+                most_recent = rtmstfr4
+                most_recent = rtmstfr5
+                most_recent = rtmstfr6
+                most_recent = rtmstfr7
             elif most_recent == right2:
                 most_recent = rightmost
             elif most_recent == right3:
