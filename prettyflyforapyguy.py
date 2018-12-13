@@ -8,7 +8,7 @@ sense.set_pixel(3, 7, (255, 0, 0))
 r = (255, 0, 0)
 g = (0, 255, 0)
 w = (255, 255, 255)
-
+from random import *
 
 bg= [
     [r, r, r, r, r, r, r, r],
@@ -20,7 +20,16 @@ bg= [
     [r, r, r, r, r, r, r, r],
     [r, r, r, r, r, r, r, r]
     ]
-
+bg= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r]
+    ]
 sense.set_pixels(sum(bg,[]))
 
 
@@ -105,6 +114,16 @@ right2= [
     [r, r, r, r, r, r, w, r]
     ]
 rtmost= [
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, r],
+    [r, r, r, r, r, r, r, w]
+    ]
+rgtmost= [
     [r, r, r, r, r, r, r, r],
     [r, r, r, r, r, r, r, r],
     [r, r, r, r, r, r, r, r],
@@ -733,17 +752,55 @@ while True:
                 most_recent = right4
             elif most_recent == right2:
                 most_recent = right3
-            elif most_recent == rightmost:
+            elif most_recent == rtmost:
                 most_recent = right2
         if event.direction == "up":
             if most_recent == rtmost:
                 most_recent = rtmstfr1
+                sense.set_pixels(sum(most_recent,[]))
+                sleep(0.2)
                 most_recent = rtmstfr2
+                sense.set_pixels(sum(most_recent,[]))
+                sleep(0.2)
                 most_recent = rtmstfr3
+                sense.set_pixels(sum(most_recent,[]))
+                sleep(0.2)
                 most_recent = rtmstfr4
+                sense.set_pixels(sum(most_recent,[]))
+                sleep(0.2)
                 most_recent = rtmstfr5
+                sense.set_pixels(sum(most_recent,[]))
+                sleep(0.2)
                 most_recent = rtmstfr6
+                sense.set_pixels(sum(most_recent,[]))
+                sleep(0.2)
                 most_recent = rtmstfr7
+                sense.set_pixels(sum(most_recent,[]))
+                sleep(0.2)
+                most_recent = rtmost
+                sense.set_pixels(sum(most_recent,[]))
+            elif most_recent == right2:
+                most_recent = rt2fr1
+                sense.set_pixels(sum(most_recent,[]))
+                sleep(0.2)
+                most_recent = rt2fr2
+                sense.set_pixels(sum(most_recent,[]))
+                sleep(0.2)
+                most_recent = rt2fr3
+                sense.set_pixels(sum(most_recent,[]))
+                sleep(0.2)
+                most_recent = rt2fr4
+                sense.set_pixels(sum(most_recent,[]))
+                sleep(0.2)
+                most_recent = rt2fr5
+                sense.set_pixels(sum(most_recent,[]))
+                sleep(0.2)
+                most_recent = rt2fr6
+                sense.set_pixels(sum(most_recent,[]))
+                sleep(0.2)
+                most_recent = rt2fr7
+                sense.set_pixels(sum(most_recent,[]))
+                sleep(0.2)
             elif most_recent == right2:
                 most_recent = rightmost
             elif most_recent == right3:
@@ -758,7 +815,10 @@ while True:
                 most_recent = left3
             elif most_recent == leftmost:
                 most_recent = left2
+    for i in range(0,7):
+        sense.set_pixel(0,7
         
+            
     sense.set_pixels(sum(most_recent,[]))
 
 
