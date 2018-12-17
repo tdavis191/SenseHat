@@ -1,0 +1,38 @@
+from sense_hat import *
+from time import *
+sense = SenseHat()
+r = (255, 0, 0)
+g = (0, 255, 0)
+w = (255, 255, 255)
+bg = [[r, r, r, r, r, r, r, r],
+      [r, r, r, r, r, r, r, r],
+      [r, r, r, r, r, r, r, r],
+      [r, r, r, r, r, r, r, r],
+      [r, r, r, r, r, r, r, r],
+      [r, r, r, r, r, r, r, r],
+      [r, r, r, r, r, r, r, r],
+      [r, r, r, w, r, r, r, r]]
+# j is y value; i is x                    
+sense.set_pixels(sum(bg, []))
+x=7
+y=0
+def fire(x):
+    for j in range(8):
+        bg[x][j] = g
+        if j >= 0:
+            bg[x][j - 1] = r
+        sense.set_pixels(sum(bg, []))
+        sleep(1)
+        
+
+def guy():
+    for event in sense.stick.get_events():
+        if event.direction == "right":
+            bg[7][((bg[x]).index(w)) + 1] = w
+            bg[7][((bg[x]).index(w))] = r 
+            sense.set_pixels(sum(bg, []))
+        if event.direction == "left":
+            bg[7][((bg[x]).index(w)) - 1] = w
+            bg[7][((bg[x]).index(w))] = r 
+            sense.set_pixels(sum(bg, []))
+            
